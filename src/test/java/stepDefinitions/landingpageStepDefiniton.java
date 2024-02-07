@@ -46,6 +46,7 @@ public class landingpageStepDefiniton {
 		testcontextsetup.productname=landingpage.getproductname().split("-")[0].trim();
 		Thread.sleep(3000);
 		System.out.println("--Product Name extracted from landing page-- : "+testcontextsetup.productname);
+		System.out.println("--Product Name extracted from landing page-- : "+testcontextsetup.productname);
 
 	}
 	@When("Add {string} items of the selected product to cart")
